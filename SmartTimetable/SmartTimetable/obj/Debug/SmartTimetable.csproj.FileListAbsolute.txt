@@ -1,0 +1,15 @@
+D:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe.config
+D:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
+D:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csprojResolveAssemblyReference.cache
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Properties.Resources.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csproj.GenerateResource.Cache
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.exe
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.pdb
+D:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.accdb
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Main.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.MenuProg.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.FindTKB.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.EditTKB.resources
+D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.ChangePass.resources
