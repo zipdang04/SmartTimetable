@@ -13,3 +13,20 @@ D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.FindTK
 D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
 D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.EditTKB.resources
 D:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.ChangePass.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe.config
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.exe
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csprojResolveAssemblyReference.cache
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.ChangePass.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.EditTKB.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.FindTKB.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Main.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.MenuProg.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Properties.Resources.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
+E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csproj.GenerateResource.Cache
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.accdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.pdb

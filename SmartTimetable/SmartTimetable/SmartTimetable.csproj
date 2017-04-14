@@ -35,6 +35,9 @@
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite">
+      <HintPath>C:\Program Files\System.Data.SQLite\2012\bin\System.Data.SQLite.dll</HintPath>
+    </Reference>
     <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="Microsoft.CSharp" />
@@ -53,6 +56,7 @@
       <DependentUpon>ChangePass.cs</DependentUpon>
     </Compile>
     <Compile Include="ConnDB.cs" />
+    <Compile Include="ConnectSQLite.cs" />
     <Compile Include="EditTKB.cs">
       <SubType>Form</SubType>
     </Compile>
