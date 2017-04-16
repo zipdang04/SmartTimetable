@@ -8,6 +8,8 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.OleDb;
+using System.IO;
+
 namespace SmartTimetable
 {
     public partial class Main : Form
@@ -25,7 +27,7 @@ namespace SmartTimetable
 
             try
             {
-                ConnDB.connAndSelSQL(comm, nameDataGridView);
+                ConnectSQLite.commandDB(comm, nameDataGridView);
             }
             catch
             {

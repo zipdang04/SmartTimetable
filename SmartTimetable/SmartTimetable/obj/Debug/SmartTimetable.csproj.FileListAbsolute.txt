@@ -29,4 +29,27 @@ E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.accdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
-E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.pdb
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.accdb
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.pdb
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.ChangePass.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.EditTKB.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.FindTKB.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Main.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.MenuProg.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Properties.Resources.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csproj.GenerateResource.Cache
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csprojResolveAssemblyReference.cache
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe.config
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
+E:\Smart Timetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.exe
+E:\Smart Timetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\EntityFramework.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\EntityFramework.SqlServer.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.EF6.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.Linq.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\EntityFramework.xml
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\EntityFramework.SqlServer.xml
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.xml

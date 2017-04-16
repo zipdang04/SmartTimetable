@@ -8,6 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
+using System.Data.SQLite;
 
 namespace SmartTimetable
 {
@@ -44,7 +45,8 @@ namespace SmartTimetable
                 {
                     update += @" where Tiết='" + comboBox2.Text + @"'";
                 }
-                ConnDB.connAndSelSQL(update, dataGridView1);
+                //ConnDB.connAndSelSQL(update, dataGridView1);
+                ConnectSQLite.commandDB(update, dataGridView1);
             }
             catch
             {
