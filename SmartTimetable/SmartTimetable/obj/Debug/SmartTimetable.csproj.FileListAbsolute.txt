@@ -25,6 +25,7 @@ E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.MenuPro
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Properties.Resources.resources
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csproj.GenerateResource.Cache
+<<<<<<< HEAD
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
@@ -54,3 +55,10 @@ E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\EntityFramework.SqlSer
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.pdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.EF6.pdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.Linq.pdb
+=======
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.accdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.exe
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\SmartTimetable.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.pdb
+>>>>>>> origin/master
