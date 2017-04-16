@@ -22,21 +22,21 @@ namespace SmartTimetable
 
         public static void commandDB(string command)
         {
-            //try
-            //{
-            connectDB();
-            sqliteConnection.Open();
-            sqliteCommand = new SQLiteCommand(command, sqliteConnection);
-            sqliteCommand.ExecuteNonQuery();
-            //}
-            //catch
-            //{
-            MessageBox.Show("Mời bạn thử lại", "Có lỗi trong khi xử lý dữ liệu", MessageBoxButtons.OK);
-            //}
-            //finally
-            //{
-            sqliteConnection.Close();
-            //}
+            try
+            {
+                connectDB();
+                sqliteConnection.Open();
+                sqliteCommand = new SQLiteCommand(command, sqliteConnection);
+                sqliteCommand.ExecuteNonQuery();
+            }
+            catch
+            {
+                MessageBox.Show("Mời bạn thử lại", "Có lỗi trong khi xử lý dữ liệu", MessageBoxButtons.OK);
+            }
+            finally
+            {
+                sqliteConnection.Close();
+            }
         }
 
         public static void commandDB(string command, DataGridView dataGridView)

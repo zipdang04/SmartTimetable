@@ -9,7 +9,9 @@ E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite.Linq.dll
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\EntityFramework.xml
 E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\EntityFramework.SqlServer.xml
-E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite.xml
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite.EF6.pdb
+E:\SmartTimetable\SmartTimetable\SmartTimetable\bin\x86\Debug\System.Data.SQLite.Linq.pdb
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.ChangePass.resources
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.EditTKB.resources
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.FindTKB.resources
@@ -20,4 +22,3 @@ E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.Wat
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.csproj.GenerateResource.Cache
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.exe
 E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.pdb
-E:\SmartTimetable\SmartTimetable\SmartTimetable\obj\x86\Debug\SmartTimetable.csprojResolveAssemblyReference.cache

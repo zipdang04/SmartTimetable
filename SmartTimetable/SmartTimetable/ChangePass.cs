@@ -26,7 +26,8 @@ namespace SmartTimetable
 
             try
             {
-                ConnDB.connAndSelSQL(comm, nameDataGridView);
+                //ConnDB.connAndSelSQL(comm, nameDataGridView);
+                ConnectSQLite.commandDB(comm, nameDataGridView);
             }
             catch
             {
@@ -44,7 +45,8 @@ namespace SmartTimetable
 
                     try
                     {
-                        ConnDB.connAndSelSQL(comm);
+                        //ConnDB.connAndSelSQL(comm);
+                        ConnectSQLite.commandDB(comm);
                         MessageBox.Show("Cập nhật mật khẩu thành công", "", MessageBoxButtons.OK);
                         Close();
                     }

@@ -28,7 +28,7 @@ namespace SmartTimetable
                     if (j != 7) comm += ",";
                 }
                 comm += @" where Tiết='" + dataGridView1.Rows[i].Cells[0].Value.ToString() + "'";
-                ConnDB.connAndSelSQL(comm);
+                ConnectSQLite.commandDB(comm);
             }
             MenuProg menu = new MenuProg();
             menu.Show();
@@ -38,7 +38,7 @@ namespace SmartTimetable
         {
 
             string comm = "Select Tiết,Thứ_2,Thứ_3,Thứ_4,Thứ_5,Thứ_6,Thứ_7 from Timetable";
-            ConnDB.connAndSelSQL(comm, dataGridView1);
+            ConnectSQLite.commandDB(comm, dataGridView1);
         }
 
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
