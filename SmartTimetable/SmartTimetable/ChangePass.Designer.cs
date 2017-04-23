@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.nameDataGridView = new System.Windows.Forms.DataGridView();
             this.txtOldPass = new System.Windows.Forms.TextBox();
             this.txtNewPass = new System.Windows.Forms.TextBox();
@@ -36,15 +37,16 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.nameDataGridView)).BeginInit();
             this.SuspendLayout();
             // 
             // nameDataGridView
             // 
             this.nameDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.nameDataGridView.Location = new System.Drawing.Point(12, 137);
+            this.nameDataGridView.Location = new System.Drawing.Point(3, 12);
             this.nameDataGridView.Name = "nameDataGridView";
-            this.nameDataGridView.Size = new System.Drawing.Size(10, 10);
+            this.nameDataGridView.Size = new System.Drawing.Size(227, 134);
             this.nameDataGridView.TabIndex = 5;
             this.nameDataGridView.Visible = false;
             // 
@@ -115,6 +117,10 @@
             this.label3.TabIndex = 5;
             this.label3.Text = "Xác nhận mật khẩu";
             // 
+            // timer1
+            // 
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // ChangePass
             // 
             this.AcceptButton = this.btnDone;
@@ -122,6 +128,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.DarkGreen;
             this.ClientSize = new System.Drawing.Size(388, 159);
+            this.Controls.Add(this.nameDataGridView);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -129,7 +136,6 @@
             this.Controls.Add(this.txtConPass);
             this.Controls.Add(this.txtNewPass);
             this.Controls.Add(this.txtOldPass);
-            this.Controls.Add(this.nameDataGridView);
             this.Name = "ChangePass";
             this.Text = "ChangePass";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.ChangePass_FormClosed);
@@ -150,5 +156,6 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Timer timer1;
     }
 }

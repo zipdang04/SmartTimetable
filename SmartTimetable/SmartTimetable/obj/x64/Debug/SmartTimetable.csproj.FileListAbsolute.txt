@@ -1,0 +1,17 @@
+E:\SmartTimetable\SmartTimetable\bin\x64\Debug\SmartTimetable.exe.config
+E:\SmartTimetable\SmartTimetable\bin\x64\Debug\SmartTimetable.exe
+E:\SmartTimetable\SmartTimetable\bin\x64\Debug\SmartTimetable.pdb
+E:\SmartTimetable\SmartTimetable\bin\x64\Debug\System.Data.SQLite.dll
+E:\SmartTimetable\SmartTimetable\bin\x64\Debug\System.Data.SQLite.pdb
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.csprojResolveAssemblyReference.cache
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.ChangePass.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.EditTKB.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.EditTKB2.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.FindTKB.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.Main.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.MenuProg.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.Properties.Resources.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.WatchTKB.resources
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.csproj.GenerateResource.Cache
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.exe
+E:\SmartTimetable\SmartTimetable\obj\x64\Debug\SmartTimetable.pdb

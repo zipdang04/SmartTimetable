@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 ﻿using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -10,99 +9,47 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SQLite;
 using System.IO;
+
 namespace SmartTimetable
 {
     class ConnectSQLite
     {
+
         private static SQLiteConnection sqliteConnection;
-        private static SQLiteCommand sqliteCommand;
+
         private static void connectDB()
         {
-            sqliteConnection = new SQLiteConnection("Data Source="+Directory.GetCurrentDirectory()+@"\Database\Timetable.sqlite; Version=3;");
+            //SQLiteConnection.CreateFile("Timetable.db");
+            string conn = @"data source=" + Directory.GetCurrentDirectory() + @"\Timetable.sqlite; Version=3;";
+            sqliteConnection = new SQLiteConnection(conn);
         }
 
-        public static void commandDB(string command)
+        public static void commandDB(string comm)
         {
-            try
-            {
-                connectDB();
-                sqliteConnection.Open();
-                sqliteCommand = new SQLiteCommand(command, sqliteConnection);
-                sqliteCommand.ExecuteNonQuery();
-            }
-            catch
-            {
-                MessageBox.Show("Mời bạn thử lại", "Có lỗi trong khi xử lý dữ liệu", MessageBoxButtons.OK);
-            }
-            finally
-            {
-                sqliteConnection.Close();
-            }
+            connectDB();
+            sqliteConnection.Open();
+            SQLiteCommand sqliteCommand = new SQLiteCommand(comm, sqliteConnection);
+            sqliteCommand.ExecuteNonQuery();
+            sqliteConnection.Close();
         }
 
-        public static void commandDB(string command, DataGridView dataGridView)
+        public static void commandDB(string comm, DataGridView dataGridView)
         {
+            connectDB();
+            sqliteConnection.Open();
+            SQLiteCommand sqliteCommand = new SQLiteCommand(comm, sqliteConnection);
             try
             {
-                connectDB();
-                sqliteConnection.Open();
-                sqliteCommand = new SQLiteCommand(command, sqliteConnection);
-                sqliteCommand.ExecuteNonQuery();
                 SQLiteDataAdapter sqliteDataAdapter = new SQLiteDataAdapter(sqliteCommand);
                 DataTable dataTable = new DataTable();
                 sqliteDataAdapter.Fill(dataTable);
-                sqliteDataAdapter.Dispose();
                 dataGridView.DataSource = dataTable;
+                sqliteCommand.Dispose();
                 dataTable.Dispose();
-            }
-            catch (Exception e)
-            {
-                System.Console.WriteLine(e.ToString());
-                MessageBox.Show("Mời bạn thử lại", "Có lỗi trong khi thêm dữ liệu", MessageBoxButtons.OK);
-            }
-            finally
-            {
-                sqliteConnection.Close();
-            }
-        }
-
-    }
-}
-=======
-﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows.Forms;
-using System.Data.SQLite;
-
-namespace SmartTimetable
-{
-    class ConnectSQLite
-    {
-        private static SQLiteConnection sqliteConnection;
-        private static SQLiteCommand sqliteCommand;
-        public static void connectDB()
-        {
-            string path = Application.StartupPath + @"\Database\Timetable.sqlite";
-            sqliteConnection = new SQLiteConnection("Data Source=" + path + "; Version=3;");
-        }
-
-        public static void insertDB(string command)
-        {
-            try
-            {
-                sqliteConnection.Open();
-                sqliteCommand = new SQLiteCommand(command, sqliteConnection);
-                sqliteCommand.ExecuteNonQuery();
             }
             catch
             {
-                MessageBox.Show("Mời bạn thử lại", "Có lỗi trong khi thêm dữ liệu", MessageBoxButtons.OK);
+
             }
             finally
             {
@@ -110,7 +57,25 @@ namespace SmartTimetable
             }
         }
 
-
+        public static void commandDB(string comm, DataTable dataTable)
+        {
+            connectDB();
+            sqliteConnection.Open();
+            SQLiteCommand sqliteCommand = new SQLiteCommand(comm, sqliteConnection);
+            try
+            {
+                SQLiteDataAdapter sqliteDataAdapter = new SQLiteDataAdapter(sqliteCommand);
+                sqliteDataAdapter.Fill(dataTable);
+                sqliteCommand.Dispose();
+            }
+            catch
+            {
+                MessageBox.Show("Không thể truy cập dữ liệu", "", MessageBoxButtons.OK);
+            }
+            finally
+            {
+                sqliteConnection.Close();
+            }
+        }
     }
 }
->>>>>>> origin/master
