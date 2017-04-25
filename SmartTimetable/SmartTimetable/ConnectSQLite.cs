@@ -32,7 +32,7 @@ namespace SmartTimetable
             sqliteCommand.ExecuteNonQuery();
             sqliteConnection.Close();
         }
-
+         
         public static void commandDB(string comm, DataGridView dataGridView)
         {
             connectDB();

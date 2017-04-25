@@ -48,6 +48,7 @@
             this.startTimePicker.ShowUpDown = true;
             this.startTimePicker.Size = new System.Drawing.Size(55, 20);
             this.startTimePicker.TabIndex = 0;
+            this.startTimePicker.Value = new System.DateTime(2017, 4, 23, 0, 0, 0, 0);
             // 
             // endTimePicker
             // 
@@ -58,6 +59,7 @@
             this.endTimePicker.ShowUpDown = true;
             this.endTimePicker.Size = new System.Drawing.Size(55, 20);
             this.endTimePicker.TabIndex = 0;
+            this.endTimePicker.Value = new System.DateTime(2017, 4, 23, 23, 59, 0, 0);
             // 
             // cboThu
             // 
@@ -152,7 +154,7 @@
             this.Controls.Add(this.endTimePicker);
             this.Controls.Add(this.startTimePicker);
             this.Name = "Create";
-            this.FormClosing += new System.Windows.Forms.FormClosingEventHandler(this.Create_FormClosing);
+            this.Load += new System.EventHandler(this.Create_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

@@ -33,3 +33,4 @@ E:\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.WatchTKB.resources
 E:\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.csproj.GenerateResource.Cache
 E:\SmartTimetable\SmartTimetable\bin\Debug\System.Data.SQLite.dll
 E:\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Create.resources
+E:\SmartTimetable\SmartTimetable\obj\Debug\SmartTimetable.Edit.resources

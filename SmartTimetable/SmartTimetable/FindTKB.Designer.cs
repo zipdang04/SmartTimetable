@@ -506,9 +506,9 @@
             this.label5.ForeColor = System.Drawing.Color.White;
             this.label5.Location = new System.Drawing.Point(3, 15);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(82, 13);
+            this.label5.Size = new System.Drawing.Size(113, 13);
             this.label5.TabIndex = 2;
-            this.label5.Text = "Tìm theo thứ:";
+            this.label5.Text = "Tìm theo nội dung:";
             // 
             // FindTKB
             // 

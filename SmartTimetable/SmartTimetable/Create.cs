@@ -12,23 +12,17 @@ namespace SmartTimetable
 {
     public partial class Create : Form
     {
-        public Create()
+        private EditTKB mainForm;
+        public Create(Form callingForm)
         {
+            this.mainForm = callingForm as EditTKB;
             InitializeComponent();
-        }
-
-        private void Create_FormClosing(object sender, FormClosingEventArgs e)
-        {
-            EditTKB ed = new EditTKB();
-            ed.showTimetable();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            if (startTimePicker.Value > endTimePicker.Value)
-            {
-                MessageBox.Show("Giờ bắt đầu không thể sau giờ kết thúc", "", MessageBoxButtons.OK);
-            }
+            if (startTimePicker.Value > endTimePicker.Value) MessageBox.Show("Giờ bắt đầu không thể sau giờ kết thúc", "", MessageBoxButtons.OK);
+            else if (cboThu.Text == "") MessageBox.Show("Ô \"Thứ\" chưa có nội dung", "", MessageBoxButtons.OK);
             else
             {
                 int start = startTimePicker.Value.Hour * 60 + startTimePicker.Value.Minute,
@@ -53,9 +47,13 @@ namespace SmartTimetable
                 string comm = "UPDATE Num SET Quantity=" + (Convert.ToInt32(dataTable.Rows[0][0].ToString()) + 1).ToString()
                     + " WHERE Quantity=" + dataTable.Rows[0][0].ToString();
                 ConnectSQLite.commandDB(comm);
+                mainForm.refresh();
+                Close();
             }
-            
-            Close();
+        }
+
+        private void Create_Load(object sender, EventArgs e)
+        {
         }
     }
 }
